@@ -1,0 +1,15 @@
+{
+  "name": "card-launches",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn && node index.js",
+    "postinstall" : "cd frontend && yarn && yarn build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
